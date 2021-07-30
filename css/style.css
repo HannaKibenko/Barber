@@ -1463,33 +1463,6 @@ body.ie ._ibg img {
 
 .gallery {
   padding: 46px 0px 0px 0px;
-  position: relative;
-}
-
-.gallery::before,
-.gallery::after {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  width: 432px;
-  height: 736px;
-  top: -129px;
-  z-index: 3;
-}
-
-._no-webp .gallery::before{
-  background: url("../img/history/bg_left.png") left no-repeat; }
-
-.gallery::before {
-  left: 0;
-}
-
-._no-webp .gallery::after{
-  background: url("../img/history/bg_right.png") right no-repeat; }
-
-.gallery::after {
-  right: 0;
-  top: 0px;
 }
 
 .gallery__container {
@@ -1655,10 +1628,6 @@ body.ie ._ibg img {
 
   .history__text p:last-child {
     margin: 0;
-  }
-
-  .gallery::before {
-    display: none;
   }
 }
 
@@ -1942,10 +1911,6 @@ body.ie ._ibg img {
     display: none;
   }
 
-  .gallery::after {
-    display: none;
-  }
-
   .gallery .gallery__title,
   .gallery .gallery__button {
     margin: 0px 0px 30px 0px;
@@ -1982,9 +1947,5 @@ body.ie ._ibg img {
 ._webp .services::before{ background: url(../img/service/bg_left.webp) left no-repeat; }
 
 ._webp .services::after{ background: url(../img/service/bg_raght.webp) right no-repeat; }
-
-._webp .gallery::before{ background: url(../img/history/bg_left.webp) left no-repeat; }
-
-._webp .gallery::after{ background: url(../img/history/bg_right.webp) right no-repeat; }
 
 ._webp .gallery::after{ background: url(../img/history/bg_right.webp) right no-repeat; }
